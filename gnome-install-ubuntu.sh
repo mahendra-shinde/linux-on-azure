@@ -1,8 +1,11 @@
-## Script to add Ubuntu Gnome Desktop
-## Use this script in "Custom Script extension"
-## Command : sudo bash gnome-install-ubuntu.sh
+# Copy this script to your linux vm using SCP command
+# Example: # Example: (replace $VMUSER with actual username, $VM-IP with Public IP)
+# scp gnome-install-ubuntu.sh $VMUSER@$VM-IP:/home/$VMUSER/
+# To execute the script, enter into new SSH session and run following command
+# $ sudo sh gnome-install-ubuntu.sh
 apt update -y
-apt install -y ubuntu-gnome-desktop xrdp 
+apt install -y ubuntu-desktop xrdp 
 systemctl enable xrdp
-echo "mate-session" > .xsession
 reboot
+# You would get disconnected from current SSH session, DONT PANIC!
+# Just wait for 2 minutes and try RDP directly!
