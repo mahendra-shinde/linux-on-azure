@@ -1,6 +1,6 @@
 ## Setting up Remote desktop for Ubuntu 18.04 on Azure
 
-RDP Being proproetory protocol from microsoft, is much slower on linux desktops. Linux have native remote desktop protocols like NX which are supported on Windows. You can install NoMachine (Client) on windows and NoMachine (Server) on Linux desktop. Open port `4000` and connect!
+RDP Being proprietary protocol from microsoft, is much slower on linux desktops. Linux have native remote desktop protocols like NX which are supported on Windows. You can install NoMachine (Client) on windows and NoMachine (Server) on Linux desktop. Open port `4000` and connect!
 
 ## Setting up NoMachine on Ubuntu 1804 (Azure VM)
 
