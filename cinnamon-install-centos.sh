@@ -1,5 +1,5 @@
 # Copy this script to your linux vm using SCP command
-# Example:
+# Example: (replace $VMUSER with actual username, $VM-IP with Public IP)
 # scp cinnamon-install-centos.sh $VMUSER@$VM-IP:/home/$VMUSER/
 # To execute the script, enter into new SSH session and run following command
 # $ sudo sh cinnamon-install-centos.sh
